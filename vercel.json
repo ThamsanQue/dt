@@ -1,8 +1,0 @@
-{
-  "routes": [
-    {
-      "src": "/api/leadform",
-      "dest": "src/pages/api/leadForm.json.ts"
-    }
-  ]
-}
