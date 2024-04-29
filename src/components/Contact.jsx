@@ -30,7 +30,7 @@ export const Contact = () => {
     e.preventDefault();
     console.log(formData);
     try {
-      const response = await fetch("/leadForm.json", {
+      const response = await fetch("/api/leadForm.json", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

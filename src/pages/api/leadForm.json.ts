@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 import { Resend } from "resend";
-import SalesLeadEmail, { type SalesLeadEmailProps } from "../emails/dataInc";
+import SalesLeadEmail, { type SalesLeadEmailProps } from "../../emails/dataInc";
 
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
 
