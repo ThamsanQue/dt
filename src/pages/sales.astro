@@ -1,0 +1,35 @@
+---
+import { Navbar } from "../components/Navbar";
+import Layout from "../layouts/Layout.astro";
+import { Hero } from "../components/sales/hero";
+import { Section1 } from "../components/sales/section1";
+import { Section2 } from "../components/sales/section2";
+import { Section3 } from "../components/sales/section3";
+import { Section4 } from "../components/sales/section4";
+import { Section5 } from "../components/sales/section5";
+import { Section6 } from "../components/sales/section6";
+import { Section7 } from "../components/sales/section7";
+
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+import { Contact } from "../components/Contact";
+import { Testimonials } from "../components/Testimonials";
+import { Footer } from "../components/Footer";
+import { ScrollUpButton } from "../components/ScrollUpButton";
+---
+
+<Layout title="Sales">
+  <Navbar client:load />
+  <Hero client:load />
+  <Section1 client:load />
+  <Section2 client:load />
+  <Section3 client:load />
+  <Section4 client:load />
+  <Section5 client:load />
+  <Contact client:load />
+  <Section7 client:load />
+  <Section6 client:load />
+  <Testimonials client:load />
+  <Footer client:load />
+  <ScrollUpButton client:load />
+</Layout>
