@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   output: "hybrid",
   adapter: vercel({
-    edgeMiddlewares: ["/api/leadForm"],
+    edgeMiddleware: true,
   }),
   integrations: [react(), tailwind()],
 });
