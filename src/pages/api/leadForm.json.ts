@@ -3,7 +3,7 @@ import { Resend } from "resend";
 import SalesLeadEmail, { type SalesLeadEmailProps } from "../../emails/dataInc";
 
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
-export const prerender = false;
+
 export const POST: APIRoute = async ({ params, request }) => {
   const body = await request.json();
   const {
