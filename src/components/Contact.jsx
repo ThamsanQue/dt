@@ -3,6 +3,7 @@ import contact from "../assets/icons/contactIcon.png";
 import email from "../assets/icons/emailIcon.png";
 import { useState } from "react";
 
+export const prerender = false;
 export const Contact = () => {
   const [formData, setFormData] = useState({
     companyName: "",
