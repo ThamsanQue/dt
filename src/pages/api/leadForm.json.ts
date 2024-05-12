@@ -89,7 +89,7 @@ async function sendLeadForm({
 }: SalesLeadEmailProps) {
   try {
     await resend.emails.send({
-      from: "leads@data-inc.co.za",
+      from: "security@trustmarkt.online",
       to: emailAddress,
       subject: "Lead Form",
       text: "Lead Form",
